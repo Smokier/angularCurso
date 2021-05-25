@@ -1,5 +1,4 @@
-import { Component, OnInit, Input } from '@angular/core';
-import { FormControl } from '@angular/forms';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-root',
@@ -8,10 +7,6 @@ import { FormControl } from '@angular/forms';
 })
 export class AppComponent {
   constructor() {}
-  Nombre: any;
-  ngOnInit() {}
 
-  addtext() {
-    alert('hola' + ' ' + this.Nombre);
-  }
+  ngOnInit(): void {}
 }
