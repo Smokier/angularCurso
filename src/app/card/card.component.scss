@@ -1,0 +1,18 @@
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 35vw;
+  border-radius: 5%;
+  border-style: solid;
+  border-width: 1px;
+  padding: 1rem;
+  margin: 5px;
+  border-width: 2px;
+  border-color: rgb(56, 56, 56);
+}
+.area {
+  resize: none;
+  border-style: none;
+  text-align: center;
+  text-justify: center;
+}

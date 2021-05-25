@@ -1,8 +1,8 @@
-<div class="wrapper">
-  <p>esta es una to do list</p>
-  <ul>
-    <li>hola</li>
-    <li>holaa</li>
-    <li>holaaa</li>
-  </ul>
+<div class="wrapper card">
+  <div class="card"><h2>to do list</h2></div>
+  <app-card></app-card>
+  <div class="item" #appenHere></div>
+  <div>
+    <button class="btn btn-primary" (click)="addNewComponent()">+</button>
+  </div>
 </div>
