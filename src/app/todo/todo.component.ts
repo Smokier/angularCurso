@@ -22,7 +22,7 @@ export class TodoComponent implements OnInit {
 
   addNewComponent() {
     let childComponent = this.resolver.resolveComponentFactory(CardComponent);
-    this.componentRef = this.target.createComponent(childComponent); // <-- here it's throws an error!
+    this.componentRef = this.target.createComponent(childComponent);
   }
   ngOnInit(): void {}
 }
